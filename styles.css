@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(font/Norse-Bold.otf);
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-container{
+    background-image: url(imagenes/background-photo.avif);
+    background-size: cover;
+    background-color: red;
+    height: 100%;
+    flex: 1;
+}
+
+.div-superior{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-container{
+    background: rgba(0,0,0,.40);
+    color: white;
+    font-size: 5rem;
+    font-family:Norse-Bold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 100px;
+    color: white;
+}
+
+.div-inferior{
+    height: 50%;
+    display: flex;
+}
+
+.text{
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.right-container{
+    background-color: #F8F9F9;
+    height: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.parte-superior{
+    flex: 1;
+}
+
+.parte-media{
+    flex: 1;
+    background-color: white;
+    box-shadow: 0px 18px 15px -15px rgba(0,0,0,0.44);
+}
+
+.parte-inferior{
+    flex: 1;
+}
+
+.blanc{
+    height: 35%;
+}
+
+.text-principal{
+    height: 65%;
+}
+
+.main-text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.apartado{
+    line-height: 55px;
+}
+
+#form-id{
+    height: 100%;
+}
+
+.form-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 15px 30px 0 30px;
+}
+
+.cuarto-div{
+    height: 25%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.input-row{
+    border: 0;
+    display: flex;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+.input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    margin: 0px 30px 0 30px; 
+}
+
+.input:focus-visible{
+    outline:2px solid rgb(39, 76, 241);
+}
+
+
+.label{
+    margin: 0 30px 0 30px;
+    font-family: 'Radio Canada Big';
+    font-weight: 600px;
+    font-size: .8rem;
+    color: rgb(32, 32, 32);
+}
+
+.submit-button{
+    background-color: rgb(52, 105, 52);
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    border-radius:  10px;
+    margin: 30px;
+}
+
+.log-in-text{
+    font-size: .9rem;
+    font-weight: 550;
+    margin-left: 30px;
+}
+
+.log-in-link{
+    color: rgb(52, 105, 52);
+    text-decoration: none;
+}
